@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 
 gem 'rails',        '4.2.0'
 gem 'sass-rails',   '5.0.1'
@@ -9,11 +9,16 @@ gem 'turbolinks',   '2.3.0'
 gem 'jbuilder',     '2.2.3'
 gem 'sdoc',         '0.4.0', group: :doc
 gem 'pg'
+gem 'rubysl-pty', :platforms => :ruby
+gem 'web-console-rails3', :platforms => :ruby
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+gem 'sqlite3'
+gem 'coffee-script-source', '1.8.0'
 
 group :development, :test do
 
   gem 'byebug',      '3.4.0'
-  gem 'web-console', '2.0.0.beta3'
+  gem 'sextant'
   gem 'spring',      '1.1.3'
 end
 
